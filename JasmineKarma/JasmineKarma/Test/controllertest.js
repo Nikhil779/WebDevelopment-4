@@ -21,6 +21,6 @@ describe('mycontroller', function () {
                 $controller('mycontroller', {
                     $scope: $scope
                 });
-                expect($scope.lower('MAHESH')).toEqual('mahesh');
+                expect($scope.lower('RAHUL')).toEqual('rahul');
             }));
 });
